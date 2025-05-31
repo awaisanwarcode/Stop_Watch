@@ -1,0 +1,87 @@
+@media (min-width:600px) and (max-width:990px) {
+    section {
+        justify-content: space-between;
+        margin-top: 7%;
+    }
+
+    p {
+        font-size: 1.3rem;
+        text-align: start;
+        line-height: 1.45;
+    }
+
+    #clock {
+        width: 300px;
+        height: 300px;
+    }
+
+    .time {
+        font-size: 3.4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    #btnDiv {
+        display: flex;
+        margin-top: 3.5rem;
+    }
+
+    button {
+        width: 120px;
+        font-size: 1.7rem;
+    }
+
+    ul {
+        height: auto;
+    }
+
+    li {
+        font-size: 1.67rem;
+    }
+}
+
+@media (min-width:250px) and (max-width:599px) {
+    section {
+        margin-top: 100px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    #mark_div{
+        margin-top: 50px;
+    }
+
+    p{
+        font-size: 1rem;
+        line-height: 1.34;
+    }
+    
+    #clock {
+        width: 180px;
+        height: 180px;
+        font-size: 1.28rem;
+    }
+
+    .time {
+        font-size: 2rem;
+    }
+
+    button {
+        width: 60px;
+        font-size: 1.12rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    ul {
+        height: auto;
+    }
+
+    li {
+        font-size: 1.2rem;
+    }
+}
