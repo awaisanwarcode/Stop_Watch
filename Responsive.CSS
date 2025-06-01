@@ -49,6 +49,11 @@
         flex-direction: column;
     }
 
+     #disc_div {
+         width: 150px;
+         font-size: 1.5rem;
+    }
+
     #mark_div{
         margin-top: 50px;
     }
